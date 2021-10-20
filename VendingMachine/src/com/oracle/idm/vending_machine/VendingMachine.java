@@ -1,7 +1,7 @@
 package com.oracle.idm.vending_machine;
 
 import java.util.Scanner;
-/* @auther vikas.p.pathak@oracle.com */
+/* @auther dev.vikaspathak@gmail.com */
 
 /*****************Blueprint for Vending Machine******************/
 interface IVendingMachine {
