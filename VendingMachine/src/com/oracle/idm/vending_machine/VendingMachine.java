@@ -1,7 +1,7 @@
 package com.oracle.idm.vending_machine;
 
 import java.util.Scanner;
-/* @auther vikas.p.pathak@oracle.com*/
+/* @auther vikas.p.pathak@oracle.com */
 
 /*****************Blueprint for Vending Machine******************/
 interface IVendingMachine {
@@ -52,7 +52,7 @@ public class VendingMachine implements IVendingMachine {
 		}
 
 	}
-	
+
 /*****************Method to insert money************************/
 	public void loadMoney() {
 
@@ -114,7 +114,7 @@ public class VendingMachine implements IVendingMachine {
 		}
 		if (paid < price) {
 			System.out.println("Plz insert enough money to buy this product..");
-			
+
 
 		}
 
